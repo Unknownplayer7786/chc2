@@ -194,3 +194,16 @@ body {
   .doctor-wrapper, .contact-bento { grid-template-columns: 1fr; }
   .contact-map-frame { height: 350px; }
 }
+.brand-dot{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.brand-dot img{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
